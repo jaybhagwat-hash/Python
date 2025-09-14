@@ -1,4 +1,4 @@
-import app
+import test.maths as maths
 
 def main() :
     val1 = int(input("enter first value"))
@@ -6,10 +6,10 @@ def main() :
     print()
     operation = input("Type on of the following:  \n\t\t add\n\t\t sub\n\t\t mult\n\t\t div\n")
     operation_value = {
-        'add' : app.add,
-        'sub' : app.sub,
-        'mult' : app.mult,
-        'div' : app.div
+        'add' : maths.add,
+        'sub' : maths.sub,
+        'mult' : maths.mult,
+        'div' : maths.div
      }
     
     function_to_call = operation_value[operation]
