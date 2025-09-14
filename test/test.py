@@ -1,0 +1,7 @@
+# Write your code here :-)
+print('What is your name?')
+name = input('>')
+print('Your name is ' + str(name))
+print('what is your age?')
+age = input('>')
+print('you will be ' + str(int(age) + 1) + ' in 1 year')
